@@ -1,0 +1,27 @@
+body {
+    background: orange;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 42px;
+}
+
+#scifi {
+  width: 200px;
+  height: 150px;
+  background-color: brown;
+}
+
+button {
+	border: 0;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 15px;
+	background-color: #008b8b;
+	color: #000000;
+}
+
+
+
+/*use futuristic font, in black (what is the one that has dots in the center of its o's?)

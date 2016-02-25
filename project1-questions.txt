@@ -1,0 +1,55 @@
+Listed below are trivia questions for GA Project 1 (Trivia Game).
+
+Categories:
+  Art
+  Science
+  *Science Fiction
+  *Animals
+  Food
+  *History
+
+Questions:
+  Animals
+    Q1. Which is the scientific name for the common household cat?
+      A0. "kitty kitty"
+      A1. "Garfield"
+      A2. "felis catus"
+    Q2.  Snakes
+    Q3.  Frogs
+    Q4.  Birds
+    Q5.  Dinosaurs
+
+  History
+    1.  Who invented the...?
+    2.  Who was the first person to...?
+    3.  In what year did the first Olympic Games play?
+    4.
+    5.
+
+  Science Fiction
+    1.  Frank Herbert (Dune)
+          Q - "What is the name given to the planet that would later be known informally as "Dune"?"
+          A0 - "Caladan"
+          A1 - "Arrakis"
+          A2 - "Geidi Prime"
+    2.  Isaac Asimov (I, Robot)
+          A0 -
+    3.  Arthur Clark (2010: Odyssey Two)
+          Q - "On which of Jupiter's moons is landing forbidden?"
+          A0 - "Europa"
+          A1 - "Io"
+          A2 - "Ganymede"
+    4.  The Day the Earth Stood Still
+          Q - "What is the phrase character Helen Benson tells Gort to stop him from destroying Earth?"
+          A0 - "Stop, Gort!"
+          A1 - "Humans can evolve."
+          A2 - "Klaatu barada nikto."
+    5.  Batman versus Superman
+          Q - Who will win in a fight to the death?
+          A0 - Batman
+          A1 - Superman
+          A2 - Who cares?
+
+Put question bank answers into an array.
+Question categories are broken down by div.
+Look into how to hide and show div in the page so game can all be on same page
