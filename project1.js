@@ -56,19 +56,24 @@ window.onload=function()
         alert("Welcome to Guess What?!");
         chooseCategory();
       }
-  }
+  };
 //********************************
 //Player must choose which category s/he will play: Animals, Art, History, Science or Science Fiction.
 function chooseCategory()
   {
+    // mms: were you expecting to retrieve an element with the class of "scifi"?  I don't see one in your html and neither did this javascript.
     var scifiCategory = document.querySelector(".scifi");
     scifiCategory.addEventListener("click", startGameSciFi);
-    function startGameSciFi();
+  }
+    // mms: invalid function syntax, you needed the opening curly brace before the comments.  I recommend using this format.
+    function startGameSciFi(){
       //keep track of correct and incorrect answers!
       //two wrong loses
       //three correct wins
-      {
+
         //Dune
+
+        // mms: how can we display this on a web page, using forms and inputs, rather than a prompt.
         var Q1 = prompt("What is the name given to the planet that would later be known informally as 'Dune'? (Caladan, Arrakis or Geidi Prime)");
            if (Q1 === "Arrakis")
             {
@@ -80,46 +85,47 @@ function chooseCategory()
               alert("Incorrect");
             //next question
            }
-          }
+          // }
+        // mms: commenting out the rest, so I could have something to test.
         //2010
-        var Q2 = prompt("On which of Jupiter's moons is landing forbidden? (Ganymede, Io or Europa)")
-           if (Q2 === "Europa")
-            {
-              alert("Correct!");
-              //move to next question
-            }
-           else
-            {
-              alert("Incorrect");
-            //next question
-           }
-          }
+        // var Q2 = prompt("On which of Jupiter's moons is landing forbidden? (Ganymede, Io or Europa)")
+        //    if (Q2 === "Europa")
+        //     {
+        //       alert("Correct!");
+        //       //move to next question
+        //     }
+        //    else
+        //     {
+        //       alert("Incorrect");
+        //     //next question
+        //    }
+        //   }
         //DTESS
-        var Q3 = prompt("What is the phrase character Helen Benson tells Gort to stop him from destroying Earth?" /n/n("Klaatu barada nikto", "Stop, Gort!" or "Humans will evolve"));
-           if (Q3 === "Klaatu barada nikto")
-            {
-              alert("Correct!");
-              //move to next question
-            }
-           else
-            {
-              alert("Incorrect");
-            //next question
-           }
-          }
+        // var Q3 = prompt("What is the phrase character Helen Benson tells Gort to stop him from destroying Earth?" /n/n("Klaatu barada nikto", "Stop, Gort!" or "Humans will evolve"));
+        //    if (Q3 === "Klaatu barada nikto")
+        //     {
+        //       alert("Correct!");
+        //       //move to next question
+        //     }
+        //    else
+        //     {
+        //       alert("Incorrect");
+        //     //next question
+        //    }
+        //   }
         //BvS
-        var Q4 = prompt("Who will win in a fight to the death?" ("Batman", "Superman" or "Who cares?"));
-             if (typeof Q3 = "string")
-              {
-                alert("Correct!");
-                //final score
-              }
-             else
-              {
-                alert("Incorrect");
-              //final score
-            }
-          }
+        // var Q4 = prompt("Who will win in a fight to the death?" ("Batman", "Superman" or "Who cares?"));
+        //      if (typeof Q3 = "string")
+        //       {
+        //         alert("Correct!");
+        //         //final score
+        //       }
+        //      else
+        //       {
+        //         alert("Incorrect");
+        //       //final score
+        //     }
+        //   }
 
       /*if (choice === "A")
         {
@@ -146,8 +152,9 @@ function chooseCategory()
             //wrong entry; go back to choosing catergory
             chooseCategory();
           }
-  }
 */
+  }
+
 //****************************************
 /*function animals()
   {
